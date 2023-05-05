@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce;
 
-use Corcel\Model\Option;
+use Loffel\Model\Option;
 
 class WooCommerce
 {

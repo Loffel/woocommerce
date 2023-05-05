@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Corcel\WooCommerce\Model;
 
 use Carbon\Carbon;
-use Corcel\Concerns\Aliases;
-use Corcel\Concerns\MetaFields;
-use Corcel\Model\Post;
+use Loffel\Concerns\Aliases;
+use Loffel\Concerns\MetaFields;
+use Loffel\Model\Post;
 use Corcel\WooCommerce\Model\Builder\OrderBuilder;
 use Corcel\WooCommerce\Support\Payment;
 use Corcel\WooCommerce\Traits\AddressesTrait;

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce\Model;
 
-use Corcel\Concerns\Aliases;
-use Corcel\Concerns\MetaFields;
-use Corcel\Model\Attachment;
-use Corcel\Model\Post;
+use Loffel\Concerns\Aliases;
+use Loffel\Concerns\MetaFields;
+use Loffel\Model\Attachment;
+use Loffel\Model\Post;
 use Corcel\WooCommerce\Traits\HasRelationsThroughMeta;
 use Database\Factories\ProductFactory;
 use Illuminate\Database\Eloquent\Collection;

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce\Model;
 
-use Corcel\Model\User;
+use Loffel\Model\User;
 use Corcel\WooCommerce\Traits\AddressesTrait;
 use Corcel\WooCommerce\Traits\HasRelationsThroughMeta;
 use Database\Factories\CustomerFactory;

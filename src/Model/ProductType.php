@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce\Model;
 
-use Corcel\Model\Taxonomy;
+use Loffel\Model\Taxonomy;
 
 class ProductType extends Taxonomy
 {

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce\Model\Builder;
 
-use Corcel\Model\Builder\PostBuilder;
+use Loffel\Model\Builder\PostBuilder;
 
 class OrderBuilder extends PostBuilder
 {
     /**
      * Scope a query to only cancelled orders.
      *
-     * @return  \Corcel\Model\Builder\PostBuilder
+     * @return  \Loffel\Model\Builder\PostBuilder
      */
     public function cancelled(): PostBuilder
     {
@@ -21,7 +21,7 @@ class OrderBuilder extends PostBuilder
     /**
      * Scope a query to only completed orders.
      *
-     * @return  \Corcel\Model\Builder\PostBuilder
+     * @return  \Loffel\Model\Builder\PostBuilder
      */
     public function completed(): PostBuilder
     {
@@ -31,7 +31,7 @@ class OrderBuilder extends PostBuilder
     /**
      * Scope a query to only failed orders.
      *
-     * @return  \Corcel\Model\Builder\PostBuilder
+     * @return  \Loffel\Model\Builder\PostBuilder
      */
     public function failed(): PostBuilder
     {
@@ -41,7 +41,7 @@ class OrderBuilder extends PostBuilder
     /**
      * Scope a query to only on hold orders.
      *
-     * @return  \Corcel\Model\Builder\PostBuilder
+     * @return  \Loffel\Model\Builder\PostBuilder
      */
     public function onHold(): PostBuilder
     {
@@ -51,7 +51,7 @@ class OrderBuilder extends PostBuilder
     /**
      * Scope a query to only pending orders.
      *
-     * @return  \Corcel\Model\Builder\PostBuilder
+     * @return  \Loffel\Model\Builder\PostBuilder
      */
     public function pending(): PostBuilder
     {
@@ -61,7 +61,7 @@ class OrderBuilder extends PostBuilder
     /**
      * Scope a query to only processing orders.
      *
-     * @return  \Corcel\Model\Builder\PostBuilder
+     * @return  \Loffel\Model\Builder\PostBuilder
      */
     public function processing(): PostBuilder
     {
@@ -71,7 +71,7 @@ class OrderBuilder extends PostBuilder
     /**
      * Scope a query to only refunded orders.
      *
-     * @return  \Corcel\Model\Builder\PostBuilder
+     * @return  \Loffel\Model\Builder\PostBuilder
      */
     public function refunded(): PostBuilder
     {
@@ -81,7 +81,7 @@ class OrderBuilder extends PostBuilder
     /**
      * Scope a query to orders with given status.
      *
-     * @return  \Corcel\Model\Builder\PostBuilder
+     * @return  \Loffel\Model\Builder\PostBuilder
      */
     public function status($status): PostBuilder
     {

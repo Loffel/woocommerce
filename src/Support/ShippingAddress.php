@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce\Support;
 
-use Corcel\Model;
+use Loffel\Model;
 
 /**
  * @property string|null  $first_name

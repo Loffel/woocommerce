@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce\Model\Meta;
 
-use Corcel\Model\Meta\PostMeta;
+use Loffel\Model\Meta\PostMeta;
 
 class ItemMeta extends PostMeta
 {

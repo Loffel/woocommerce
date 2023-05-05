@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Corcel\WooCommerce\Traits;
 
 use Closure;
-use Corcel\Concerns\MetaFields;
-use Corcel\Model\Meta\Meta;
+use Loffel\Concerns\MetaFields;
+use Loffel\Model\Meta\Meta;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Query\JoinClause;
@@ -52,7 +52,7 @@ trait HasRelationsThroughMeta
      * Make meta model instance.
      *
      * @param  \Illuminate\Database\Eloquent\Model  $model
-     * @return  \Corcel\Model\Meta\Meta
+     * @return  \Loffel\Model\Meta\Meta
      *
      * @throws  InvalidArgumentException
      * @throws  LogicException

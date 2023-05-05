@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce\Support;
 
-use Corcel\Model;
+use Loffel\Model;
 use Corcel\WooCommerce\Model\Customer;
 use Corcel\WooCommerce\Model\Order;
 use Illuminate\Contracts\Support\Arrayable;

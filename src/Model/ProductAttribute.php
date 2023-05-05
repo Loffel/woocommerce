@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Corcel\WooCommerce\Model;
 
-use Corcel\Concerns\Aliases;
-use Corcel\Model;
+use Loffel\Concerns\Aliases;
+use Loffel\Model;
 use Illuminate\Support\Collection;
 
 /**
